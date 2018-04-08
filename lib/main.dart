@@ -8,7 +8,8 @@ class StartupNamer extends StatelessWidget {
     Widget build(BuildContext context) {
         return new MaterialApp(
             title: 'Startup Name Generator',
-            home: new RandomWords());
+            home: new RandomWords(),
+        );
     }
 }
 
