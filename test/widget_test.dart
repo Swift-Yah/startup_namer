@@ -8,11 +8,11 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:startup_namer/main.dart';
 
 void main() {
-    testWidgets('App starts with Hello World presented', (WidgetTester tester) async {
-        // Build our app and trigger a frame.
-        await tester.pumpWidget(new StartupNamer());
+  testWidgets('App starts with Hello World presented', (WidgetTester tester) async {
+    // Build our app and trigger a frame.
+    await tester.pumpWidget(new StartupNamer());
 
-        // Verify that our text is not 'Hello World'.
-        expect(find.text('Hello World'), findsNothing);
+    // Verify that our text is not 'Hello World'.
+    expect(find.text('Hello World'), findsNothing);
   });
 }
