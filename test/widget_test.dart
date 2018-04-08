@@ -12,7 +12,7 @@ void main() {
         // Build our app and trigger a frame.
         await tester.pumpWidget(new StartupNamer());
 
-        // Verify that our text is 'Hello World'.
-        expect(find.text('Hello World'), findsOneWidget);
+        // Verify that our text is not 'Hello World'.
+        expect(find.text('Hello World'), findsNothing);
   });
 }
